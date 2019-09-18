@@ -19,48 +19,57 @@
     <!-- Header -->
     <header class="page-header">
       <!-- Navigation -->
-      <nav class="navbar fixed-top bg-light">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" role="navigation">
         <a class= "navbar-brand" href="home.html">Liz Kipp</a>
-        <ul role="menubar" class="navigation-list">
-          <li class="nav-item" role="presentation">
-            <a href="index.html" role="menuitem" class="nav-link">Home</a>
-          </li >
-          <li class="nav-item" role="presentation">
-            <a href="work.html" role="menuitem" class="nav-link">Work</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a href="about.html" role="menuitem" class="nav-link">About</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a href="contact.html" role="menuitem" class="nav-link">Contact</a>
-          </li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active" role="presentation">
+              <a href="index.html" role="menuitem" class="nav-link">Home <span class="sr-only">(current)</span></a>
+            </li >
+            <li class="nav-item" role="presentation">
+              <a href="work.html" role="menuitem" class="nav-link">Work</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="about.html" role="menuitem" class="nav-link">About</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a href="contact.html" role="menuitem" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <!-- Main Content Section -->
     <section id="containerTop">
-      <h1 class="workHeader">Work</h1>
+      <div class="row">
+        <div class="col">
+          <h1 class="recentWork">Recent Work</h1>
+        </div>
+      </div>
       <div class="grid">
         <div class="grid__item">
           <h2>Franklins Public House</h2>
-          <img src="img/franklinburger.jpg" alt="Franklins Cheeseburger">
-          <p>Davy Jones' Locker black jack parrel bilge rat spyglass fluke cackle fruit gaff belaying pin Blimey. Yellow Jack cutlass boom handsomely Jolly Roger cable grog blossom coxswain come about gunwalls.<br><a href="#">See project on GitHub</a></p>
+          <img src="img/ruebenSandwich.jpg" alt="Franklins Rueben Sandwich">
+          <p>Custom Website built with a mobile first approach using Bootstrap. Photography, Social Media Management, Google Analytics.<br><a href="https://www.franklinspublichouse.com/">Visit Website</a></p>
         </div>
         <div class="grid__item">
-          <h2>Cupcake Ipsum</h2>
-          <p>Cupcake caramels pie chocolate cake. Toffee jujubes liquorice candy canes cotton candy topping caramels. Icing lemon drops topping lollipop wafer lollipop tart tiramisu caramels.<br><a href="#">See project on GitHub</a></p>
+          <h2>Luann, Your BFF Esthetician</h2>
+          <img src="img/drybrushing.jpg" alt="Social Media Campaign">
+          <p>Created a custom marketing plan, social media, photography, eCommerce, email marketing, customer database setup.<br><a href="https://www.yourbffesthetician.com/">Visit Website</a></p>
         </div>
         <div class="grid__item">
-          <h2>Cheese Ipsum</h2>
-          <p>Halloumi edam dolcelatte. Bavarian bergkase stilton cow boursin cheddar feta cheesy grin cut the cheese. Cheese on toast who moved my cheese fromage frais st. agur blue cheese emmental when the cheese comes out everybody's Gouda.<br><a href="#">See project on GitHub</a></p>
+          <h2>Optimista</h2>
+          <br>
+          <img src="img/ahca.jpg" alt="AHCA Homepage">
+          <p>Maintenance and development of custom Wordpress site ahcivic.org. Managed a team of HS CS students learning web development.<br><a href="https://ahcivic.org/">ahcivic.org</a></p>
         </div>
         <div class="grid__item">
-          <h2>Fillerama</h2>
-          <p>A lifetime of working with nuclear power has left me with a healthy green glow…and left me as impotent as a Nevada boxing commissioner. Human contact: the final frontier.<br><a href="#">See project on GitHub</a></p>
-        </div>
-        <div class="grid__item">
-          <h2>Hipsum</h2>
-          <p>Vaporware hot chicken letterpress, try-hard stumptown authentic gochujang YOLO gluten-free taxidermy pitchfork fingerstache post-ironic.Vaporware hot chicken letterpress, try-hard stumptown authentic gochujang YOLO gluten-free taxidermy pitchfork fingerstache post-ironic.<br><a href="#">See project on GitHub</a></p>
+          <h2>Rent My Sole</h2>
+          <img src="img/rentMySole.jpg" alt="Rent My Sole Social Media">
+          <p>Built eCommerce website using SquareSpace. Logo design, photography & email setup.</p>
         </div>
       </div>
     </section>
@@ -74,5 +83,9 @@
         <a href="https://www.linkedin.com/in/elizabethsn7/" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn"></a>
       </div>
     </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
