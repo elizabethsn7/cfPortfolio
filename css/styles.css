@@ -17,6 +17,7 @@ h1,
   font-family: "Montserrat", sans-serif;
   font-size: 2.5em;
   margin-left: 15px;
+  margin-top: -30px;
 }
 
 p,
@@ -78,6 +79,7 @@ a {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
   color: var(--primary-color) !important;
+  padding: 0;
 }
 
 .page-header {
@@ -198,7 +200,7 @@ button {
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr 1fr;
     margin: 0 10px;
@@ -208,6 +210,7 @@ button {
         grid-row: auto/auto;
       }
   }
+
   h1 {
     font-size: 1.25em;
   }
