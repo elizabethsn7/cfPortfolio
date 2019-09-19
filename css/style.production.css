@@ -12,9 +12,10 @@
 
 h1,
 .recentWork {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5em;
-  margin-left: 15px;
+  font-family: 'Bad Script', cursive;
+  font-size: 4em;
+  text-align: center;
+  display: block;
 }
 
 p,
@@ -32,14 +33,9 @@ nav {
 }
 
 .navbar {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  padding: 0 15px;
-  color: #73a2ff !important;
+  border-bottom: 2px solid #2d2d2d;
 }
-
-.nav-link {
+.navbar .nav-link {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -85,6 +81,7 @@ a :active {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
   color: #73a2ff !important;
+  padding: 0;
 }
 
 .page-header {
@@ -99,7 +96,23 @@ a :active {
   margin-top: 8%;
 }
 
+.contact {
+  text-align: center;
+}
+
+.indexH2 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 40px;
+}
+
+.indexButton {
+  padding-right: 10px;
+}
+
 .page-footer {
+  margin-top: 25px;
+  padding-top: 30px;
   clear: both;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,10 +122,12 @@ a :active {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  border-top: 2px solid #585858;
   font-size: 1.5em;
 }
 
 .social-media {
+  margin-top: -30px;
   margin-bottom: 30px;
 }
 
@@ -257,7 +272,7 @@ button :focus {
     grid-row: auto/auto;
   }
 }
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 768px) {
   .grid {
     -ms-grid-columns: 1fr 10px 1fr;
     grid-template-columns: 1fr 1fr;

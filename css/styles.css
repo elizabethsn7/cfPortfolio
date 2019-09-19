@@ -3,6 +3,7 @@
   --secondary-color: #80e8d8;
   --light-bg: #f8f9fa;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -14,10 +15,10 @@
 
 h1,
 .recentWork {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5em;
-  margin-left: 15px;
-  margin-top: -30px;
+  font-family: 'Bad Script', cursive;
+  font-size: 4em;
+  text-align: center;
+  display: block;
 }
 
 p,
@@ -34,11 +35,13 @@ nav {
   font-size: 1.5em;
 }
 
-.navbar,
-.nav-link {
-  align-items: flex-end;
-  padding: 0 15px;
-  color: var(--primary-color) !important;
+.navbar {
+  border-bottom: 2px solid #2d2d2d;
+    .nav-link {
+      align-items: flex-end;
+      padding: 0 15px;
+      color: var(--primary-color) !important;
+    }
 }
 
 .profile__portrait {
@@ -62,6 +65,7 @@ a {
   :focus {
     text-decoration: none;
   }
+
   :active {
     color: var(--secondary-color) !important;
   }
@@ -92,15 +96,32 @@ a {
   margin-top: 8%;
 }
 
+.contact {
+  text-align: center;
+}
+
+.indexH2 {
+  color: var(--secondary-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.indexButton{
+  padding-right: 10px;
+}
+
 .page-footer {
+  margin-top: 25px;
+  padding-top: 30px;
   clear: both;
   display: flex;
   flex-direction: column;
   text-align: center;
+  border-top: 2px solid #585858;
   font-size: 1.5em;
 }
 
 .social-media {
+  margin-top: -30px;
   margin-bottom: 30px;
 }
 
