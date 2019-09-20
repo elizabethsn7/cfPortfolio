@@ -5,9 +5,9 @@
 
 .containerBackground {
   background: #80e8d8;
-  background: -webkit-gradient(linear, left top, left bottom, from(#80e8d8), color-stop(17%, #7ac5f5), color-stop(53%, #80efff), color-stop(91%, #80ffc8), to(#7af59d));
-  background: -o-linear-gradient(top, #80e8d8 0%, #7ac5f5 17%, #80efff 53%, #80ffc8 91%, #7af59d 100%);
-  background: linear-gradient(180deg, #80e8d8 0%, #7ac5f5 17%, #80efff 53%, #80ffc8 91%, #7af59d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#80e8d8), color-stop(28%, #7ac5f5), color-stop(52%, #80efff), color-stop(67%, #80e8d8), color-stop(98%, #7ac5f5));
+  background: -o-linear-gradient(top, #80e8d8 0%, #7ac5f5 28%, #80efff 52%, #80e8d8 67%, #7ac5f5 98%);
+  background: linear-gradient(180deg, #80e8d8 0%, #7ac5f5 28%, #80efff 52%, #80e8d8 67%, #7ac5f5 98%);
 }
 
 h1,
@@ -103,7 +103,7 @@ a :active {
   text-align: center;
 }
 
-.indexH2 {
+h2 {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -154,7 +154,7 @@ h2 {
 }
 
 .grid__item {
-  background-color: #f8f9fa;
+  background-color: #eff1f2;
   -webkit-box-shadow: 5px 5px 10px #2d2d2d;
   box-shadow: 5px 5px 10px #2d2d2d;
   padding: 10px;

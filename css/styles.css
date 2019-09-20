@@ -1,7 +1,7 @@
 :root {
   --primary-color: #73a2ff;
   --secondary-color: #80e8d8;
-  --light-bg: #f8f9fa;
+  --light-bg: #eff1f2;
 }
 
 * {
@@ -9,8 +9,8 @@
 }
 
 .containerBackground {
-  background: #80e8d8;
-  background: linear-gradient(180deg, #80e8d8 0%, #7ac5f5 17%, #80efff 53%, #80ffc8 91%, #7af59d 100%);
+  background: rgb(128, 232, 216);
+  background: linear-gradient(180deg, rgba(128, 232, 216, 1) 0%, rgba(122, 197, 245, 1) 28%, rgba(128, 239, 255, 1) 52%, rgba(128, 232, 216, 1) 67%, rgba(122, 197, 245, 1) 98%);
 }
 
 h1,
@@ -102,7 +102,7 @@ a {
   text-align: center;
 }
 
-.indexH2 {
+h2 {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -233,3 +233,4 @@ button {
       grid-row: auto/auto;
     }
   }
+}
