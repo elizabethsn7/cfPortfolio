@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .containerBackground {
@@ -35,10 +35,11 @@ nav {
 .navbar {
   border-bottom: 2px solid #2d2d2d;
 }
+
 .navbar .nav-link {
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   padding: 0 15px;
   color: #73a2ff !important;
 }
@@ -59,22 +60,24 @@ nav {
 a :visited {
   color: #73a2ff !important;
 }
+
 a :hover,
 a :focus {
   text-decoration: none;
 }
+
 a :active {
   color: #80e8d8 !important;
 }
 
 .box-shadow {
   -webkit-box-shadow: 5px 5px 10px black;
-          box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px black;
 }
 
 .drop-shadow {
   -webkit-filter: drop-shadow(5px 5px 10px black);
-          filter: drop-shadow(5px 5px 10px black);
+  filter: drop-shadow(5px 5px 10px black);
 }
 
 .navbar-brand {
@@ -102,8 +105,6 @@ a :active {
 
 .indexH2 {
   font-family: "Montserrat", sans-serif;
-  color: #000;
-  font-size: 40px;
 }
 
 .indexButton {
@@ -119,8 +120,8 @@ a :active {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   border-top: 2px solid #585858;
   font-size: 1.5em;
@@ -136,13 +137,13 @@ h2 {
   padding: 5px 10px;
 }
 
-/* Grid fallback*/
+/* Grid fallback */
 .grid__item {
   display: inline-block;
   width: 50%;
 }
 
-/* Styling CSS grid*/
+/* Styling CSS grid */
 .grid {
   display: -ms-grid;
   display: grid;
@@ -155,11 +156,11 @@ h2 {
 .grid__item {
   background-color: #f8f9fa;
   -webkit-box-shadow: 5px 5px 10px #2d2d2d;
-          box-shadow: 5px 5px 10px #2d2d2d;
+  box-shadow: 5px 5px 10px #2d2d2d;
   padding: 10px;
-  /* Set width to auto*/
   width: auto;
 }
+
 .grid__item :last-child {
   -ms-grid-column: 3;
   grid-column: 3 / 3;
@@ -169,48 +170,41 @@ h2 {
 }
 
 .button {
-  /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
   font-family: inherit;
-  /* styles the button */
   background-color: #73a2ff;
   color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
 }
 
 button {
-  /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
-  /* takes the font from the outer container */
   font-family: inherit;
-  /* styles the button */
   background-color: #73a2ff;
   color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition-duration: 0.2s;
-       -o-transition-duration: 0.2s;
-          transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
 }
+
 .button :hover,
 .button :focus,
 button :hover,
@@ -229,35 +223,41 @@ button :focus {
   0% {
     opacity: 1;
   }
+
   66% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 @keyframes bounceOutDown {
   0% {
     opacity: 1;
   }
+
   66% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
 }
+
 .bounceOutDown {
   max-width: 200px;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   opacity: 0;
 }
 
 .bounceInUp {
   max-width: 200px;
   -webkit-animation-duration: 4s;
-          animation-duration: 4s;
+  animation-duration: 4s;
 }
 
 @media all and (max-width: 500px) {
@@ -267,11 +267,13 @@ button :focus {
     margin: 0 10px;
     grid-gap: 10px;
   }
+
   .grid :last-child {
     grid-column: auto/auto;
     grid-row: auto/auto;
   }
 }
+
 @media all and (min-width: 500px) and (max-width: 768px) {
   .grid {
     -ms-grid-columns: 1fr 10px 1fr;
@@ -279,12 +281,9 @@ button :focus {
     margin: 0 10px;
     grid-gap: 10px;
   }
+
   .grid :last-child {
     grid-column: auto/auto;
     grid-row: auto/auto;
-  }
-
-  h1 {
-    font-size: 1.25em;
   }
 }
